@@ -25,7 +25,7 @@ PREFIX="$( cd "$( dirname "$0" )" && pwd )"
 # Flags to add to the ln command
 DEFAULT_LINK_FLAGS='-s -n'
 # Tasks to run when none specified
-ALL_TASKS="vim nvim" # zsh tmux emacs git X python others"
+ALL_TASKS="vim nvim git" # zsh tmux emacs git X python others"
 UNLINK=0
 
 while getopts 'fuh' flag; do
